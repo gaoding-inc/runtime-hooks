@@ -25,10 +25,10 @@ function hookArgs (originalFn, argsGetter) {
   }
 }
 
-function hookOutput (originalFn, valueGetter) {
+function hookOutput (originalFn, outputGetter) {
   return function () {
-    var _value = originalFn.apply(this, arguments)
-    return valueGetter(_value)
+    var _output = originalFn.apply(this, arguments)
+    return outputGetter(_output)
   }
 }
 
