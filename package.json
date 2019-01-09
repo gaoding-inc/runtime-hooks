@@ -15,7 +15,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "standard",
-    "test": "jest"
+    "test:local": "jest --coverage",
+    "test": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
