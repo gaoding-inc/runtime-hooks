@@ -20,6 +20,12 @@
 </p>
 
 
+## What's This?
+Adding hooks to any function you need!
+
+[中文介绍](https://zhuanlan.zhihu.com/p/54460682)
+
+
 ## Usage
 
 Install via NPM:
