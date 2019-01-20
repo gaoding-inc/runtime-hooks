@@ -83,6 +83,7 @@ Given original function, runs a new high-order function that:
 1. Calls original function and get its output.
 2. Calls `outputGetter` with output, returning what it returns.
 
+> Both `hookOutput` and `withHookAfter` runs after original function. `hookOutput` replaces the output, but `withHookAfter` won't. 
 
 ## License
 MIT
